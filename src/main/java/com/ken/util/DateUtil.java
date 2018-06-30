@@ -3,7 +3,6 @@ package com.ken.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.util.StringUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -52,10 +51,6 @@ public class DateUtil {
         SimpleDateFormat dateFormat = new SimpleDateFormat(formatStr);
         String dateStr = dateFormat.format(date);
         return dateStr;
-    }
-
-    public static int getAgeByBirthday(String birthday) {
-        return 0;
     }
 
 }
